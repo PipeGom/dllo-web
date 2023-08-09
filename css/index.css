@@ -1,0 +1,46 @@
+
+        nav> ul {
+            list-style-type: none;
+            margin: 0;
+            padding:0;
+            overflow: hidden;
+            background-color: #333;
+    
+        }
+        nav > ul > li {
+            float: left;
+        }
+    
+        nav> ul> li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+    
+        }
+    
+        nav>ul>li a:hover{
+            background-color: #111;
+    
+        }
+        ul {
+            list-style-type: circle;
+        }
+
+        .container{
+            border: 2px solid red;
+            width: 300px;
+            height: 300px;
+        }
+        .element{
+            border: 2px solid #000;
+            width: 200px;
+            height: 200px;
+            margin: 10px 15px 18px 25px;
+            /* el margen es exterior y el padding interior y el border es el bordo */
+            /* Los pixeles van en sentido de las manecillas del reloj para el padding y margin */
+            /* margin: 25px; 
+            padding: 50px; */
+        }
+    
