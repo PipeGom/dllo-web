@@ -119,6 +119,22 @@ const crearNombreCompleto = (nombre,apellido) => {
 }
 
 
+let estudiantes = new Array();
+
+estudiantes.push({"nombre":"EL pepe", id:123})
+estudiantes.push({"nombre":"Maritza", id:1234})
+
+estudiantes.forEach((x) => console.log(x.nombre))
+
+/*for (let i = 0; i < estudiantes.length; i++) {
+    if(estudiantes[i].nombre == "Maritza"){
+        console.log
+    }
+}*/
+
+
+
+
 
 
 
