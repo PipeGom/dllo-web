@@ -59,25 +59,25 @@
       </nav>
 
       <main>
-        <div class="container">
+        <div class="form-floating mb-3">
         <center>
           <h1> Formulario de tareas y actividades </h1>
         </center>
         <form action="javascript:void(0)" onsubmit="getDataForm()">
           <label for="txtName">Nombre</label>   <!--Id Interacciones JS Name base de datos-->
           
-          <input  id="txtName" name="txtName" type="text" placeholder="Ingrese su nombre"> 
+          <input   class="form-control"  id="txtName" name="txtName" type="text" placeholder="Ingrese su nombre"> 
           <br>
           <label for="txtEmail">Correo</label>   <!--Id Interacciones JS Name base de datos-->
           
-          <input  id="txtEmail" name="txtEmail" type="text" placeholder="Ingrese su correo"> 
+          <input class="form-control"  id="txtEmail" name="txtEmail" type="text" placeholder="Ingrese su correo"> 
           <br>
 
-          <textarea name="txtTask" id="txtTask" cols="30" rows="10" placeholder="Descripcion Tarea"></textarea>
+          <textarea class="form-control" name="txtTask" id="txtTask" cols="30" rows="10" placeholder="Descripcion Tarea"></textarea>
 
           <br>
           
-          <input type="checkbox" name="acceptConditions" id="acceptConditions">
+          <input   type="checkbox" name="acceptConditions" id="acceptConditions">
           <label for="acceptConditions">
             <a href="https://www.google.com/" target="_blank">Acepta terminos y condiciones</a></label>
             <br>
@@ -85,10 +85,10 @@
             <br>
             <input type="radio" name="taskType" id="typeA">Actividad
             <br>
-            <input type="radio" name="taskType" id="typeB">Tarea
+            <input   type="radio" name="taskType" id="typeB">Tarea
             <br>
             <br>
-            <input type="submit" value="Enviar">
+            <input  class="form-control"  type="submit" value="Enviar">
           </form>
 
       </div>
